@@ -1,0 +1,10 @@
+Python-Crypto est un scrypt python qui permet de faire 3 choses:
+    - D'avoir des information sur une cryptomonnaie.
+    - De récuperé un fichier avec les information de 5000 cryptomonnaie.
+    - De lancée un Bot qui regarde le cours du marcher et vous avertit a partir d'un certain que vous définicé.
+
+Python-Crypto a besoin de certain module pour fonctionner:
+    - requests
+    - twilio
+
+Ce script utilise l'API de CoinMarketCap, et le service d'envoie de SMS Twilio
